@@ -251,3 +251,61 @@
 /*------------------------------------------------------------------------------------------------- */
 
 // take input a,b,c as ages, determine youngest of three 
+
+// import java.util.Scanner;
+
+// public class te{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+        
+//         System.out.println("Enter the Age of perrson 1: ");
+//         int a1 = sc.nextInt();
+
+//         System.out.println("Enter the Age of perrson 2: ");
+//         int a2 = sc.nextInt();
+
+//         System.out.println("Enter the Age of perrson 3: ");
+//         int a3 = sc.nextInt();
+
+//         if (a1<a2 && a1<a3) {
+//             System.out.println(a1+ " is youngwst person");
+//         }
+//         if(a2<a1 && a2<a3){
+//             System.out.println(a2+ " is youngest person");
+//         }
+//         if (a3<a1 && a3<a2) {
+//             System.out.println(a3+ " is yougest person");
+//         }
+//     }
+// }
+
+/*------------------------------------------------------------------------------------------------- */
+
+// take 3 num input and tell if they can be the sides of a triangle 
+
+// import java.util.Scanner;
+
+// public class te{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         System.out.println("Enter the side1: ");
+//         int a = sc.nextInt();
+
+//         System.out.println("Enter the side2: ");
+//         int b = sc.nextInt();
+
+//         System.out.println("Enter the side3: ");
+//         int c = sc.nextInt();
+
+//         if(a+b>c && b+c>a && a+c>b){
+//             System.out.println("it is sides of triangle");
+//         }
+//         else{
+//             System.out.println("it is not sides of tringle");
+//         }
+//     }
+// }
+
+/*------------------------------------------------------------------------------------------------- */
+
