@@ -1,6 +1,8 @@
 
 import java.util.Scanner;
 
+
+
 // import java.util.Scanner;
 
 // public class lups{
@@ -110,3 +112,201 @@ import java.util.Scanner;
 // }
 /*------------------------------------------------------------------------ */
 // reverse the digit of a number
+
+// import java.util.Scanner;
+// public class lups{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int n = sc.nextInt();
+//         int ans = 0;
+//         while (n>0) {
+//             ans = ans * 10 + n % 10;
+//             n /= 10;
+//         }
+//         System.out.println(ans);
+//     }
+// }
+
+/*------------------------------------------------------------------- */
+
+// find the sum of the following series
+//   S = 1-2+3-4 ....
+
+// public class lups {
+
+//     public static void main(String[] args) {
+//     Scanner sc = new Scanner(System.in);
+//     int n = sc.nextInt();
+//     int ans = 0;
+    
+//     for( int i = 1; i <= n; i++){
+//         if(i % 2 == 0){
+//             ans -= i;
+//         } else {
+//             ans += i;
+//         }
+//     }
+//     System.out.println(ans);
+//     }
+// }
+/*----------------------------------------------------------------- */
+
+// print the n factorial number
+
+// public class lups{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int n = sc.nextInt();
+//         int fact = 1;
+
+//         for( int i = 1; i <= n; i++){
+//             fact = fact * i;
+//             System.out.println("Factorial of " + i +": " + fact);
+//         }
+//     }
+// }
+
+/*-------------------------------------------------------------- */
+
+// Given 2 number a and b. find a raise to the power b
+
+// public class lups {
+
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int a = sc.nextInt();
+//         int b = sc.nextInt();
+
+//         int ans = 1;
+//         for( int i = 1; i <= b; i++){
+//             ans *= a;
+//         }
+//         System.out.println(ans);
+//     }
+// }
+
+/*--------------------------------------------------------------------- */
+
+// print rectangular pattern
+
+// public class lups{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int r = sc.nextInt();
+//         int c = sc.nextInt();
+
+//         for(int i = 1; i <= r; i++){
+//             for(int j = 1; j <= c; j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+// }
+
+/*------------------------------------------------------------------- */
+
+//  ******
+//  *    *
+//  *    *
+//  ******
+
+// public class lups{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int r = sc.nextInt();
+//         int c = sc.nextInt();
+        
+//         for(int i = 1; i <= r; i++ ){
+//            for(int j = 1; j <= c; j++){
+//             if( i == 1 || i == r || j == 1 || j == c)
+//                 System.out.print("*");
+//             else
+//                 System.out.print(" ");
+//             }
+//             System.out.println();
+//            }        
+//          }
+//     }    
+
+/*---------------------------------------------------------------- */
+
+// *
+// **
+// ***
+// ****
+
+//  public class lups{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int r = sc.nextInt();
+
+//         for( int i = 1; i <= r; i++){
+//             for( int j = 1; j <= i; j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+//  }
+
+/*--------------------------------------------------------------------- */
+
+// ****
+// ***
+// **
+// *
+
+//  public class lups{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int r = sc.nextInt();
+
+//         for( int i = 1; i <= r; i++){
+//             for( int j = 1; j <= (r+1-i); j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+//  }          OR
+
+//  public class lups{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int r = sc.nextInt();
+
+//         for( int i = r; i >= 1; i--){
+//             for( int j = 1; j <= i; j++){
+//                 System.out.print("*");
+//             }
+//             System.out.println();
+//         }
+//     }
+//  }
+
+/*---------------------------------------------------------------- */
+
+    //       *
+    //      ***
+    //     *****
+    //    *******   
+//  public class lups{
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         int r = sc.nextInt();
+
+//         for( int i = 1; i <= r; i++){
+
+//             for( int j = 1; j <= r-1; j++){
+//                System.out.print(" ");
+//             }
+//                 for( int k = 1; k <= 2*i-1; k++){
+//                     System.out.print("*");
+//                 }
+//                 System.out.println();
+            
+//         }
+//     }
+//  }
+/*----------------------------------------------------------------- */
