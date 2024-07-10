@@ -1,17 +1,4 @@
 
-//         Scanner sc = new Scanner(System.in);
-//         int n = sc.nextInt();
-//         for(int num=1; num <= n; num++){
-//             System.out.println(num);
-//         }
-//     }
-// }
-
-import java.util.Scanner;
-
-/**
- * ******************************************************
- */
 // import java.util.Scanner;
 // public class lups{
 //     public static void main(String[] args) {
@@ -50,6 +37,8 @@ import java.util.Scanner;
 //         }
 //     }
 // }
+
+
 // public class lups {
 //    public static void main(String[] args) {
 //     int num=1;
