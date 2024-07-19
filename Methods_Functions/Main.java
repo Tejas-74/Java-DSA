@@ -9,11 +9,8 @@
 // }
 
 /*------------------------------------------------------------------ */
-
 // add two num using methods
-
 // import java.util.Scanner;
-
 // class Algebra{
 //     int add(int a, int b){
 //         int ans = a + b;
@@ -21,13 +18,11 @@
 //     }
 // }
 // public class Main {
-
 //     public static void main(String[] args) {
 //         Algebra obj = new Algebra();
 //         Scanner sc = new Scanner(System.in);
 //         int x = sc.nextInt();
 //         int y = sc.nextInt();
-
 //         System.out.println("Sum of input number is");
 //         int ans = obj.add(x, y);
 //         System.out.println(ans);
@@ -35,28 +30,20 @@
 // }
 
 /*---------------------------------------------------------------- */
-
 // standred library method
-
 // public class Main {
-
 //     public static void main(String[] args) {
-
 //         System.out.println(Math.sqrt(24));
 //         System.out.println(Math.sqrt(16));
-
 //         System.out.println(Math.floor(5.3));
 //         System.out.println(Math.floor(5.8));
-        
 //         System.out.println(Math.ceil(5.3));
 //         System.out.println(Math.ceil(5.8));
 //     }
 // }
 /*------------------------------------------------------------------------ */
 // funtions in java;
-
 // public class Main {
-
 //     public static int printsomething(){
 //         System.out.println("hello world");
 //         System.out.println("hello world");
@@ -68,17 +55,13 @@
 //     }
 // }
 /*------------------------------------------------------------------ */
-
 // syntax of funtion n methods with paramter
-
 // import java.util.*;
-
 // public class Main{
 // public static void calSum( int num1, int num2){
 //     int sum = num1 + num2;
 //     System.out.println("Sum is : " +sum );
 // }
-
 // public static void main(String[] args){
 //     Scanner sc = new Scanner(System.in);
 //     int a = sc.nextInt();
@@ -89,15 +72,12 @@
 
 /*------------------------------------------------------------ */
 // arguments n paramters;
-
 // import java.util.*;
-
 // public class Main{
 // public static int calSum( int num1, int num2){ //paramter or formal paramter
 //     int sum = num1 + num2;
 //     return sum;
 // }
-
 // public static void main(String[] args){
 //     Scanner sc = new Scanner(System.in);
 //     int a = sc.nextInt();
@@ -108,36 +88,27 @@
 // }
 
 /*---------------------------------------------------------------------- */
-
 // call by value; 
- 
 // public class Main{
 // public static void main(String[] args){
-    
 //     //swap - value exchange
 //     int a = 5;
 //     int b = 10;
-
 //     //swap
 //     int temp = a;
 //     a = b;
 //     b = temp;
-
 //     System.out.println("a = " +a);
 //     System.out.println("b = " +b);
 // }
 // }
-
-                 // OR  //
-
+// OR  //
 // public class Main{
-
 //     public static void swap(int a, int b) {
 //         //swap
 //         int temp = a;
 //         a = b;
 //         b = temp;
-
 //         System.out.println("a = " +a);
 //         System.out.println("b = "+b);
 //     }
@@ -150,9 +121,7 @@
 // }
 
 /*------------------------------------------------------------------------ */
-
 // find prduct of a and b
-
 // public class Main{
 //     public static int multiply(int a, int b) {
 //         int product = a * b;
@@ -165,14 +134,10 @@
 // } 
 
 /*---------------------------------------------------------------- */
-
 // factorial of n
-
 // public class Main {
-
 //     public static int factorial(int n) {
 //         int f = 1;
-
 //         for(int i=1; i<=n; i++){
 //             f = f * i;
 //         }
@@ -184,25 +149,19 @@
 // }
 
 /*----------------------------------------------------------------- */
-
 // binomial coefficient
-
 // public class Main {
-
 //     public static int factorial(int n) {
 //         int f = 1;
-
 //         for(int i=1; i<=n; i++){
 //             f = f * i;
 //         }
 //         return f; 
 //     }
-
 //     public static int binCoeff(int n, int r){
 //         int fact_n = factorial(n);
 //         int fact_r = factorial(r);
 //         int fact_nmr = factorial(n-r); //(nmr = n-r)
-
 //         int binCoeff = fact_n / (fact_r * fact_nmr);
 //         return binCoeff;
 //     }
@@ -212,15 +171,10 @@
 // }
 
 /*--------------------------------------------------------------------- */
-
 //function overloading
-
 // public class Main {
-
 //     public static int sum(int a, int b) {
-//         return a + b;
 //     }
-
 //     public static int sum(int a, int b, int c) {
 //         return a + b + c;
 //     }
@@ -229,3 +183,75 @@
 //         System.out.println(sum(5, 3, 2));
 //     }
 // }
+
+/*----------------------------------------------------------------------- */
+// fuction overloading by using data types
+// public class Main{
+//     // cal sum using int 
+//     public static int sum(int a, int b) {
+//         return a+b;
+//     }
+//     // cal sum using float
+//     public static float sum( float a, float b) {
+//         return a+b;
+//     }
+//     public static void main(String[] args) {
+//         System.out.println(sum(3, 5));
+//         System.out.println(sum(3.2f, 3.8f));
+//     }
+// }
+
+/*----------------------------------------------------------------------- */
+// num is prime or not
+// public class Main{
+//     public static boolean isPrime(int n) {
+//         //corner cases - 2
+//         if(n == 2){
+//             return true;
+//         }
+//         boolean isPrime = true;
+//         for(int i = 2; i<=n-1; i++){
+//             if(n % i == 0){
+//              isPrime = false; 
+//             break;
+//         }
+//     }
+//         return isPrime;
+//     }
+//     public static void main(String[] args) {
+//         System.out.println(isPrime(2));
+//     }
+// }
+
+/*-----------------------------------------------------------------------------
+ */
+// print all prime in range
+
+// public class Main {
+
+//     public static boolean isPrime(int n) {
+
+//         boolean isPrime = true;
+//         for (int i = 2; i <= n - 1; i++) {
+//             if (n % i == 0) {
+//                 isPrime = false;
+//                 break;
+//             }
+//         }
+//         return isPrime;
+//     }
+
+//     public static void primeInRange(int n) {
+//         for (int i = 2; i <= n; i++) {
+//             if (isPrime(i)) {
+//                 System.out.print(i + " ");
+//             }
+//         }
+//         System.out.println();
+//     }
+
+//     public static void main(String[] args) {
+//         primeInRange(20);
+//     }
+// }
+ 
