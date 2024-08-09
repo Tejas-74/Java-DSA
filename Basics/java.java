@@ -28,6 +28,21 @@
 
 /*------------------------------------------------------------- */
 
+// Type Promotion in Expression
+
+// import java.util.*;
+
+// public class java {
+
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         float number = 99.99f;
+//         int num2 = (int) number;
+//         System.out.println(num2);
+//     }
+// }
+
+/*------------------------------------------------------------- */
 // Arithmatic operation
 
 // import java.util.Scanner;
