@@ -659,30 +659,82 @@
 // }
 
 //fibonacci series
-import java.util.Scanner;
-public class lups {
+// import java.util.Scanner;
+// public class lups {
 
-        public static void main(String[] args) {
-                Scanner sc = new Scanner(System.in);
-                System.out.println("Enter the number: ");
-                int num = sc.nextInt();
-                fibonaci(num);
-                System.out.println("The fibonacci is: ");
-        }
-        public static void fibonaci(int num){
+//         public static void main(String[] args) {
+//                 Scanner sc = new Scanner(System.in);
+//                 System.out.println("Enter the number: ");
+//                 int num = sc.nextInt();
+//                 fibonaci(num);
+//                 System.out.println("The fibonacci is: ");
+//         }
+//         public static void fibonaci(int num){
 
-                if (num < 0) return;
-                System.out.println("0 ");
-                if(num == 0) return;
-                System.out.print("1 ");
+//                 if (num < 0) return;
+//                 System.out.println("0 ");
+//                 if(num == 0) return;
+//                 System.out.print("1 ");
                
-                int first = 0;
-                int second = 1;
-                while( first + second <= num){
-                        int third = first + second;
-                        System.out.println(third + " ");
-                        first = second;
-                        second = third;
-                }
-        }
-}
+//                 int first = 0;
+//                 int second = 1;
+//                 while( first + second <= num){
+//                         int third = first + second;
+//                         System.out.println(third + " ");
+//                         first = second;
+//                         second = third;
+//                 }
+//         }
+// }
+
+//Armstrong number
+// import java.util.Scanner;
+// public class lups {
+
+//         public static void main(String[] args) {
+//                 Scanner sc = new Scanner(System.in);
+//                 System.out.println("Enter the number: ");
+//                 int num = sc.nextInt();
+//                 boolean isArmstrong = isArmstrong(num);
+//                 if(isArmstrong){
+//                         System.out.println("num is armstrong");
+//                 }else{
+//                         System.out.println("num in not armstrong");
+//                 }
+//         }
+//         public static boolean isArmstrong(int num){
+//                 int noOfDigit = noOfDigit(num);
+//                 int numCopy = num;
+//                 int finalNumber = 0;
+//                 while(num > 0){
+//                         int digits = num % 10;
+//                         num /= 10;
+//                         finalNumber += pow(digits, noOfDigit);
+//                 }
+//                 return finalNumber == numCopy;
+//         }
+
+//        public static int pow(int num1, int num2){
+//                 int result = num1;
+    
+//                 int i = 0;
+//                 while( i < num2){
+//                         result *= num1;
+//                         i++;
+//                 }
+//                 return result;
+//        }
+
+//         public static int noOfDigit(int num){
+//                 int digit = 0;
+//                 while( num > 0){
+//                    digit++;
+//                    num /= 10;
+//                 }
+//                 return digit;
+//         }
+
+// }
+
+//palindrom sequnce
+
