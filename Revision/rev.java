@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class rev {
 // public static void main(String[] args) {
 //     Scanner sc =  new Scanner(System.in);
@@ -86,6 +87,36 @@ public class rev {
 //     }
 //     System.out.println("Number of Digit in " +original_n+ "=" +numberOfDigit);
 
+// }
+
+// public static void main(String[] args) {
+//     Scanner sc = new Scanner(System.in);
+//     int n = sc.nextInt();
+    
+//     int sumOfDigit = 0;
+//     int original_n = n;
+
+//     while( n > 0 ){
+//         sumOfDigit += n % 10;
+//         n = n/10;
+//     }
+//     System.out.println("Number of digit in " +original_n+ " = " +sumOfDigit);
+// }
+
+// public static void main(String[] args) {
+//     Scanner sc = new Scanner(System.in);
+//     int num = sc.nextInt();
+//     int reverse = reverse(num);
+//     System.out.println("Rversed number is: "+reverse);
+// }
+// public static int reverse (int num){
+//     int newNum = 0;
+//     while(num > 0){
+//         int digit = num%10;
+//         newNum = newNum*10+digit;
+//         num /= 10;
+//     }
+//     return newNum;
 // }
 
 }

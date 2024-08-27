@@ -37,8 +37,6 @@
 //         }
 //     }
 // }
-
-
 // public class lups {
 //    public static void main(String[] args) {
 //     int num=1;
@@ -370,9 +368,7 @@
 //      2  2
 //     3    3
 //    44444444 
- 
 // public class lups {
-
 //     public static void main(String[] args) {
 //         int i, j, k, rows;
 //         Scanner sc = new Scanner(System.in);
@@ -397,22 +393,18 @@
 //             }
 //             System.out.println("");
 //         }
-
 //     }
 // }
 /*---------------------------------------------------------------------- */
-
 // 1
 // 1 2
 // 1 2 3
 // 1 2 3 4
-
 // public class lups{
 //     public static void main(String[] args) {
 //         Scanner sc = new Scanner(System.in);
 //         int n = sc.nextInt();
 //         for(int row = 1; row <= n; row++){
-    
 //             // for every row, run the col
 //             for( int col = 1; col <= row; col++){
 //                 System.out.print(col + " ");
@@ -423,7 +415,6 @@
 // }
 
 /*----------------------------------------------------------------- */
-
 //      *
 //      **
 //      ***
@@ -433,12 +424,10 @@
 //      ***
 //      **
 //      *
-
 // public class lups{
 //     public static void main(String[] args) {
 //         Scanner sc = new Scanner(System.in);
 //         int n = sc.nextInt();
-
 //         for(int row = 0; row < 2 * n; row++){
 //             int totalColInRow = row > n ? 2 * n - row: row;
 //             for(int col = 0; col < totalColInRow; col++){
@@ -450,30 +439,24 @@
 // }
 
 /*------------------------------------------------------------------ */
-
-        //       *
-        //      * * 
-        //     * * *
-        //    * * * * 
-        //   * * * * * 
-        //  * * * * * * 
-        //   * * * * * 
-        //    * * * *
-        //     * * *
-        //      * * 
-        //       *
-        
+//       *
+//      * * 
+//     * * *
+//    * * * * 
+//   * * * * * 
+//  * * * * * * 
+//   * * * * * 
+//    * * * *
+//     * * *
+//      * * 
+//       *
 // public class lups {
-
 //     public static void main(String[] args) {
 //         Scanner sc = new Scanner(System.in);
 //         int n = sc.nextInt();
-
 //         for(int  row = 0; row < 2 * n; row++){
-            
 //             int totalColInRow = row > n ? 2 * n - row: row;
 //             int noOfSpaces = n - totalColInRow;
-            
 //             for(int s = 0; s < noOfSpaces; s++){
 //                 System.out.print(" ");
 //             }
@@ -484,4 +467,222 @@
 //         }
 //     }
 /*---------------------------------------------------------------------- */
+// multiplication table
+// import java.util.Scanner;
+// public class lups {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter the num: ");
+//         int num = sc.nextInt();
+//         printMultiplicationTable(num);
+//     }
+//     public static void printMultiplicationTable(int num) {
+//         int i = 1;
+//         while (i <= 10) {
+//             System.out.println(num + " X " +i+ " = " + (num * i));
+//             i++;
+//         }
+//     }
+// }
+//Sum of odd num
+// import java.util.Scanner;
+// public class lups {
+//         public static void main(String[] args) {
+//             Scanner sc = new Scanner(System.in);
+//             System.out.println(" Enter your num: ");
+//             int num = sc.nextInt();
+//             int sum = oddSum(num);
+//             System.out.println("OddSum till " + num + " is: " +sum);
+//         }
+//         public static int oddSum(int num){
+//                 int sum = 0 ;
+//                 int i = 1;
+//                 while(i <= num){
+//                         sum += i;
+//                         i += 2;
+//                 }
+//                 return sum;
+//         }
+// } 
 
+// factorial
+
+// import java.util.Scanner;
+// public class lups {
+
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter the num: ");
+//         int a = sc.nextInt();
+//         long fact = factorial(a);
+//         System.out.println("Factorial is: "+fact);
+//     }
+//     public static long factorial(int num){
+//         if(num<2){
+//            return 1;
+//         }        
+//         long fact = 1;
+//         int i = 2;
+//         while(i <= num){
+//                 fact *= i;
+//                 i++;
+//         }
+//         return fact;
+//     }
+// }
+
+// Sum of digit
+// import java.util.Scanner;
+// public class lups {
+
+//         public static void main(String[] args) {
+//                 Scanner sc = new Scanner(System.in);
+//                 System.out.println("Enter the Number: ");
+//                 int num = sc.nextInt();
+//                 int sum = sumOfDigits(num);
+//                 System.out.println("Sum of digit id: "+sum);
+//         }
+//         public static int sumOfDigits(int num){
+//                 int sum = 0;
+//                 while (num>0) {
+//                     sum += num % 10;
+//                     num /= 10;    
+//                 }
+//                 return sum;
+//         }
+// }
+
+//LCM
+// import java.util.Scanner;
+// public class lups {
+
+//         public static void main(String[] args) {
+//                 Scanner sc = new Scanner(System.in);
+//                 System.out.println("Enter the num1: ");
+//                 int num1 = sc.nextInt();
+//                 System.out.println("Enter the num2: ");
+//                 int num2 = sc.nextInt();
+//                 int lcm = lcm(num1, num2);
+//                 System.out.println("LCM of the numbers is: "+lcm);
+//         }
+
+//         public static int lcm(int num1,int num2){
+//                 int i = 1;
+//                 while( i<=num2){
+//                         int factor = num1 * i;
+//                         if(factor % num2 == 0){
+//                                 return factor;
+//                         }
+//                         i++;
+//                 }
+//                 return  0; //unreachable
+//         }
+// }
+
+//GCD
+// import java.util.Scanner;
+// public  class lups {
+
+//         public static void main(String[] args) {
+//                 java.util.Scanner sc = new Scanner(System.in);
+//                 System.out.println("Enter num1: ");
+//                 int num1 = sc.nextInt();
+//                 System.out.println("Enter num2: ");
+//                 int num2 = sc.nextInt();
+//                 int gcd = gcd(num1, num2);
+//                 System.out.println("GCD of number is: "+gcd);
+//         }
+//         public static int gcd(int num1, int num2){
+//                 int gcd = 1;
+//                 int i = 2;
+//                 int least = least(num1, num2);
+//                 while( i <= least){
+//                         if( num1 % i == 0 && num2 % i == 0){
+//                                 gcd = i;
+//                         }
+//                         i++;
+//                 }
+//                 return gcd;
+//         }
+//         public static int least(int num1, int num2){
+//                 if(num1<num2){
+//                         return 1;
+//                 }else{
+//                         return num2;
+//                 }
+//         }
+// }
+
+//prime number
+// import java.util.Scanner;
+// public class lups {
+
+//         public static void main(String[] args) {
+//                 Scanner sc = new Scanner(System.in);
+//                 System.out.println("Enter the number: ");
+//                 int num = sc.nextInt();
+//                 boolean prime = prime(num);
+//                 System.out.println("The number is: "+prime);
+//         }
+//         public static boolean prime(int num){
+//                 int i = 2;
+//                 while(i < num){
+//                         if( num % i ==0){
+//                                 return false;
+//                         }
+//                         i++;
+//                 }
+//                 return true;
+//         }
+// }
+
+//reverse the number
+// import java.util.Scanner;
+// public class lups {
+
+//         public static void main(String[] args) {
+//                 Scanner sc = new Scanner(System.in);
+//                 System.out.println("Enter the number: ");
+//                 int num = sc.nextInt();
+//                 int reverse = reverse(num);
+//                 System.out.println("The number is: "+reverse);   
+//         }
+//         public static int reverse(int num){
+//                 int newNum = 0;
+//                 while(num> 0 ){
+//                         int digit = num % 10;
+//                         newNum = newNum * 10 + digit;
+//                         num /= 10;
+//                 }
+//                 return  newNum;
+//         }
+// }
+
+//fibonacci series
+import java.util.Scanner;
+public class lups {
+
+        public static void main(String[] args) {
+                Scanner sc = new Scanner(System.in);
+                System.out.println("Enter the number: ");
+                int num = sc.nextInt();
+                fibonaci(num);
+                System.out.println("The fibonacci is: ");
+        }
+        public static void fibonaci(int num){
+
+                if (num < 0) return;
+                System.out.println("0 ");
+                if(num == 0) return;
+                System.out.print("1 ");
+               
+                int first = 0;
+                int second = 1;
+                while( first + second <= num){
+                        int third = first + second;
+                        System.out.println(third + " ");
+                        first = second;
+                        second = third;
+                }
+        }
+}
