@@ -1,6 +1,6 @@
-import java.util.Scanner;
+//import java.util.Scanner;
 
-public class rev {
+//public class rev {
 // public static void main(String[] args) {
 //     Scanner sc =  new Scanner(System.in);
 //     System.out.println("Enter the num1: ");
@@ -119,4 +119,4 @@ public class rev {
 //     return newNum;
 // }
 
-}
+//}
