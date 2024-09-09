@@ -1,4 +1,4 @@
-// public class Arrays{
+
 //     public static void main(String[] args) {
 //         // int[] myArr = new int[5];
 //         // myArr[0] = 98;
@@ -76,5 +76,73 @@
 //              System.out.println();
 //              i++;
 //         }
+//     }
+// }
+
+// loops in array 
+
+// public class Arrays {
+
+//     public static void main(String[] args) {
+        
+//         int[] ages = new int[3];
+
+//         ages[0] = 30;
+//         ages[1] = 32;
+//         ages[2] = 34;
+
+//         System.out.println(ages[0]);
+//         System.out.println(ages[1]);
+//         System.out.println(ages[2]);
+
+//         for(int i = 0; i < 3; i++){
+//             System.out.println(ages[i]);
+//         }
+
+//         // for-each loop
+//         for(int age : ages){
+//             System.out.println(age);
+//         }
+
+//         int i = 0;
+//         while(i < 3){
+//             System.out.println(ages[i]);
+//             i++;
+//         }
+//     }
+// } 
+
+
+// multidimensional array loops
+
+// public class Arrays {
+
+//     public static void main(String[] args) {
+//         int [][] arr = {{78,59,25},{45,56,78},{12,23,45}};
+
+//         for(int i = 0; i < arr.length; i++){
+//             for(int j = 0; j< arr[i].length; j++){
+//                 System.out.println(arr[i][j]);
+//             }
+//         }
+//     }
+// }
+
+/*------------------------------------------------------------------- */
+
+// cal sum of  array
+// input arr[] = {1,5,3}
+//output = 9
+
+// public class Arrays {
+
+//     public static void main(String[] args) {
+//         int arr[] = {1,5,3};
+//         int sum = 0;
+
+//         for(int i = 0; i < arr.length; i++){
+//             sum = sum + arr[i];
+//         }
+//         System.out.println(sum);
 //     }
 // }
