@@ -146,3 +146,108 @@
 //         System.out.println(sum);
 //     }
 // }
+
+// cal the maximum value of all the elements 
+
+// public class Arrays {
+
+//     public static void main(String[] args) {
+//         int arr[] = { 2,8,5,6,14};
+//         int ans = 0;
+        
+//         for(int i = 0; i < arr.length; i++){
+//             if(arr[i] > ans){
+//                 ans = arr[i];
+//             }
+//         }
+//         System.out.println(ans);
+//     }
+// }
+
+/*--------------------------------------------------------------- */
+
+// search the given element x in the array. if present then return the index else return -1.
+
+// public class Arrays {
+
+//     public static void main(String[] args) {
+//         int arr[] = {10,8,6,9,4};
+//         int x = 2;
+//         int ans = -1;
+
+//         for(int i = 0; i < arr.length; i++){
+//             if(arr[i] == x){
+//                 ans = i;
+//             }
+//         }
+//         System.out.println("FOUND " +x+ " at index " +ans);
+//     }
+// }
+
+/*------------------------------------------------------------------------ */
+
+// Given an array of integers {2, 6, -5, -1, 0, 4, -9}, print only the positive values present in the array.
+
+// public class Arrays {
+
+//     public static void main(String[] args) {
+//         int arr[] = {2, 6, -5, -1, 0, 4, -9};
+
+//         for(int val: arr){
+//             if(val >= 0){
+//                 System.out.println(val);
+//             }
+//         }
+//     }
+// }
+
+
+/*------------------------------------------------------------------------------------------- */
+
+// Traverse over the elements of the array {1,2,3,4,5,6,7,8} using for each loop and print all even elements.
+
+// public class Arrays {
+
+//     public static void main(String[] args) {
+//         int arr[] = {1,2,3,4,5,6,7,8};
+//         for(int val: arr){
+//             if(val % 2 == 0){
+//                 System.out.println(val);
+//             }
+//         }
+//     }
+// }
+
+/*---------------------------------------------------------------------------- */
+
+// Calculate the minimum element in the array {2, -3, 5, 8, 1, 0, -4} using standard library method for calculating the minimum element.
+
+// public class Arrays {
+
+//     public static void main(String[] args) {
+//         int arr[] = {2, -3, 5, 8, 1, 0, -4};
+//         for(int i = 0; i < arr.length-1; i++){
+//             if(arr[i-1] < arr[i] && arr[i] > arr[i+1]){
+//                 System.out.println(arr[i]);
+//                 break;
+//             }
+//         }
+//     }
+// }
+
+/*--------------------------------------------------------------------------------- */
+
+// Find the first peak element in the array {1, 1, 3, 4, 2, 3, 5, 7, 0} Peak element is the one which is greater than its immediate left neighbor and its immediate right neighbor. Leftmost and rightmost element cannot be a peak element.
+
+// public class Arrays {
+
+//     public static void main(String[] args) {
+//         int arr[] = {1, 1, 3, 4, 2, 3, 5, 7, 0};
+//         for(int i = 0; i < arr.length-1; i++){
+//             if(arr[i-1] < arr[i] && arr[i] > arr[i+1]){
+//                 System.out.println(arr[i]);
+//                 break;
+//             }
+//         }
+//     }
+// }
